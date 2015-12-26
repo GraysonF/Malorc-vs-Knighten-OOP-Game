@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A5BD7CD1C2F265200C3EA7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7CC1C2F265200C3EA7A /* AppDelegate.swift */; };
+		6A5BD7CF1C2F265200C3EA7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7CE1C2F265200C3EA7A /* ViewController.swift */; };
+		6A5BD7D21C2F265200C3EA7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD7D01C2F265200C3EA7A /* Main.storyboard */; };
+		6A5BD7D41C2F265200C3EA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD7D31C2F265200C3EA7A /* Assets.xcassets */; };
+		6A5BD7D71C2F265200C3EA7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD7D51C2F265200C3EA7A /* LaunchScreen.storyboard */; };
+		6A5BD7E21C2F265200C3EA7A /* Soldier_VS_Orc_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7E11C2F265200C3EA7A /* Soldier_VS_Orc_GameTests.swift */; };
+		6A5BD7ED1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7EC1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A5BD7DE1C2F265200C3EA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A5BD7C11C2F265200C3EA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A5BD7C81C2F265200C3EA7A;
+			remoteInfo = "Soldier-VS-Orc-Game";
+		};
+		6A5BD7E91C2F265200C3EA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A5BD7C11C2F265200C3EA7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A5BD7C81C2F265200C3EA7A;
+			remoteInfo = "Soldier-VS-Orc-Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A5BD7C91C2F265200C3EA7A /* Soldier-VS-Orc-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soldier-VS-Orc-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5BD7CC1C2F265200C3EA7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A5BD7CE1C2F265200C3EA7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A5BD7D11C2F265200C3EA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A5BD7D31C2F265200C3EA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A5BD7D61C2F265200C3EA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A5BD7D81C2F265200C3EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5BD7DD1C2F265200C3EA7A /* Soldier-VS-Orc-GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soldier-VS-Orc-GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5BD7E11C2F265200C3EA7A /* Soldier_VS_Orc_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier_VS_Orc_GameTests.swift; sourceTree = "<group>"; };
+		6A5BD7E31C2F265200C3EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5BD7E81C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soldier-VS-Orc-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5BD7EC1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier_VS_Orc_GameUITests.swift; sourceTree = "<group>"; };
+		6A5BD7EE1C2F265200C3EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A5BD7C61C2F265200C3EA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5BD7DA1C2F265200C3EA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5BD7E51C2F265200C3EA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A5BD7C01C2F265200C3EA7A = {
+			isa = PBXGroup;
+			children = (
+				6A5BD7CB1C2F265200C3EA7A /* Soldier-VS-Orc-Game */,
+				6A5BD7E01C2F265200C3EA7A /* Soldier-VS-Orc-GameTests */,
+				6A5BD7EB1C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests */,
+				6A5BD7CA1C2F265200C3EA7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A5BD7CA1C2F265200C3EA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A5BD7C91C2F265200C3EA7A /* Soldier-VS-Orc-Game.app */,
+				6A5BD7DD1C2F265200C3EA7A /* Soldier-VS-Orc-GameTests.xctest */,
+				6A5BD7E81C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A5BD7CB1C2F265200C3EA7A /* Soldier-VS-Orc-Game */ = {
+			isa = PBXGroup;
+			children = (
+				6A5BD7CC1C2F265200C3EA7A /* AppDelegate.swift */,
+				6A5BD7CE1C2F265200C3EA7A /* ViewController.swift */,
+				6A5BD7D01C2F265200C3EA7A /* Main.storyboard */,
+				6A5BD7D31C2F265200C3EA7A /* Assets.xcassets */,
+				6A5BD7D51C2F265200C3EA7A /* LaunchScreen.storyboard */,
+				6A5BD7D81C2F265200C3EA7A /* Info.plist */,
+			);
+			path = "Soldier-VS-Orc-Game";
+			sourceTree = "<group>";
+		};
+		6A5BD7E01C2F265200C3EA7A /* Soldier-VS-Orc-GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A5BD7E11C2F265200C3EA7A /* Soldier_VS_Orc_GameTests.swift */,
+				6A5BD7E31C2F265200C3EA7A /* Info.plist */,
+			);
+			path = "Soldier-VS-Orc-GameTests";
+			sourceTree = "<group>";
+		};
+		6A5BD7EB1C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A5BD7EC1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift */,
+				6A5BD7EE1C2F265200C3EA7A /* Info.plist */,
+			);
+			path = "Soldier-VS-Orc-GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A5BD7C81C2F265200C3EA7A /* Soldier-VS-Orc-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A5BD7F11C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-Game" */;
+			buildPhases = (
+				6A5BD7C51C2F265200C3EA7A /* Sources */,
+				6A5BD7C61C2F265200C3EA7A /* Frameworks */,
+				6A5BD7C71C2F265200C3EA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soldier-VS-Orc-Game";
+			productName = "Soldier-VS-Orc-Game";
+			productReference = 6A5BD7C91C2F265200C3EA7A /* Soldier-VS-Orc-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A5BD7DC1C2F265200C3EA7A /* Soldier-VS-Orc-GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A5BD7F41C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-GameTests" */;
+			buildPhases = (
+				6A5BD7D91C2F265200C3EA7A /* Sources */,
+				6A5BD7DA1C2F265200C3EA7A /* Frameworks */,
+				6A5BD7DB1C2F265200C3EA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A5BD7DF1C2F265200C3EA7A /* PBXTargetDependency */,
+			);
+			name = "Soldier-VS-Orc-GameTests";
+			productName = "Soldier-VS-Orc-GameTests";
+			productReference = 6A5BD7DD1C2F265200C3EA7A /* Soldier-VS-Orc-GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A5BD7E71C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A5BD7F71C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-GameUITests" */;
+			buildPhases = (
+				6A5BD7E41C2F265200C3EA7A /* Sources */,
+				6A5BD7E51C2F265200C3EA7A /* Frameworks */,
+				6A5BD7E61C2F265200C3EA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A5BD7EA1C2F265200C3EA7A /* PBXTargetDependency */,
+			);
+			name = "Soldier-VS-Orc-GameUITests";
+			productName = "Soldier-VS-Orc-GameUITests";
+			productReference = 6A5BD7E81C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A5BD7C11C2F265200C3EA7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Grayson Faircloth";
+				TargetAttributes = {
+					6A5BD7C81C2F265200C3EA7A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P4RDJU228L;
+					};
+					6A5BD7DC1C2F265200C3EA7A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P4RDJU228L;
+						TestTargetID = 6A5BD7C81C2F265200C3EA7A;
+					};
+					6A5BD7E71C2F265200C3EA7A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P4RDJU228L;
+						TestTargetID = 6A5BD7C81C2F265200C3EA7A;
+					};
+				};
+			};
+			buildConfigurationList = 6A5BD7C41C2F265200C3EA7A /* Build configuration list for PBXProject "Soldier-VS-Orc-Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A5BD7C01C2F265200C3EA7A;
+			productRefGroup = 6A5BD7CA1C2F265200C3EA7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A5BD7C81C2F265200C3EA7A /* Soldier-VS-Orc-Game */,
+				6A5BD7DC1C2F265200C3EA7A /* Soldier-VS-Orc-GameTests */,
+				6A5BD7E71C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A5BD7C71C2F265200C3EA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5BD7D71C2F265200C3EA7A /* LaunchScreen.storyboard in Resources */,
+				6A5BD7D41C2F265200C3EA7A /* Assets.xcassets in Resources */,
+				6A5BD7D21C2F265200C3EA7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5BD7DB1C2F265200C3EA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5BD7E61C2F265200C3EA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A5BD7C51C2F265200C3EA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5BD7CF1C2F265200C3EA7A /* ViewController.swift in Sources */,
+				6A5BD7CD1C2F265200C3EA7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5BD7D91C2F265200C3EA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5BD7E21C2F265200C3EA7A /* Soldier_VS_Orc_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5BD7E41C2F265200C3EA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5BD7ED1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A5BD7DF1C2F265200C3EA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A5BD7C81C2F265200C3EA7A /* Soldier-VS-Orc-Game */;
+			targetProxy = 6A5BD7DE1C2F265200C3EA7A /* PBXContainerItemProxy */;
+		};
+		6A5BD7EA1C2F265200C3EA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A5BD7C81C2F265200C3EA7A /* Soldier-VS-Orc-Game */;
+			targetProxy = 6A5BD7E91C2F265200C3EA7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A5BD7D01C2F265200C3EA7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5BD7D11C2F265200C3EA7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A5BD7D51C2F265200C3EA7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5BD7D61C2F265200C3EA7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A5BD7EF1C2F265200C3EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A5BD7F01C2F265200C3EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A5BD7F21C2F265200C3EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Soldier-VS-Orc-Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A5BD7F31C2F265200C3EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Soldier-VS-Orc-Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A5BD7F51C2F265200C3EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Soldier-VS-Orc-GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soldier-VS-Orc-Game.app/Soldier-VS-Orc-Game";
+			};
+			name = Debug;
+		};
+		6A5BD7F61C2F265200C3EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Soldier-VS-Orc-GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soldier-VS-Orc-Game.app/Soldier-VS-Orc-Game";
+			};
+			name = Release;
+		};
+		6A5BD7F81C2F265200C3EA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Soldier-VS-Orc-GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Soldier-VS-Orc-Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6A5BD7F91C2F265200C3EA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Soldier-VS-Orc-GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Soldier-VS-Orc-Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A5BD7C41C2F265200C3EA7A /* Build configuration list for PBXProject "Soldier-VS-Orc-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5BD7EF1C2F265200C3EA7A /* Debug */,
+				6A5BD7F01C2F265200C3EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A5BD7F11C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5BD7F21C2F265200C3EA7A /* Debug */,
+				6A5BD7F31C2F265200C3EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A5BD7F41C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5BD7F51C2F265200C3EA7A /* Debug */,
+				6A5BD7F61C2F265200C3EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A5BD7F71C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5BD7F81C2F265200C3EA7A /* Debug */,
+				6A5BD7F91C2F265200C3EA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A5BD7C11C2F265200C3EA7A /* Project object */;
+}
