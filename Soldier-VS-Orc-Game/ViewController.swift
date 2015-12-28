@@ -89,7 +89,7 @@ class ViewController: UIViewController {
             
         }
         else if rand >= 25 {
-            textlabel.text = "Missed attacked!"
+            textlabel.text = "Missed attack!"
             
             
         }
@@ -128,7 +128,7 @@ class ViewController: UIViewController {
             
         }
         else if rand >= 25 {
-            textlabel.text = "Missed attacked!"
+            textlabel.text = "Missed attack!"
             
             
         }
