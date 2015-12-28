@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A43C8771C31B6B900DCABEE /* swordnoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A43C8761C31B6B900DCABEE /* swordnoise.wav */; };
+		6A43C8791C31BFB500DCABEE /* orcnoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A43C8781C31BFB500DCABEE /* orcnoise.wav */; };
+		6A43C87B1C31C22700DCABEE /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A43C87A1C31C22700DCABEE /* backgroundmusic.mp3 */; };
 		6A5BD7CD1C2F265200C3EA7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7CC1C2F265200C3EA7A /* AppDelegate.swift */; };
 		6A5BD7CF1C2F265200C3EA7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7CE1C2F265200C3EA7A /* ViewController.swift */; };
 		6A5BD7D21C2F265200C3EA7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD7D01C2F265200C3EA7A /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		6A5BD7D71C2F265200C3EA7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD7D51C2F265200C3EA7A /* LaunchScreen.storyboard */; };
 		6A5BD7E21C2F265200C3EA7A /* Soldier_VS_Orc_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7E11C2F265200C3EA7A /* Soldier_VS_Orc_GameTests.swift */; };
 		6A5BD7ED1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD7EC1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift */; };
+		6A6B05EC1C309D5500B475C8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B05EB1C309D5500B475C8 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A43C8761C31B6B900DCABEE /* swordnoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swordnoise.wav; sourceTree = "<group>"; };
+		6A43C8781C31BFB500DCABEE /* orcnoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = orcnoise.wav; sourceTree = "<group>"; };
+		6A43C87A1C31C22700DCABEE /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = "<group>"; };
 		6A5BD7C91C2F265200C3EA7A /* Soldier-VS-Orc-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soldier-VS-Orc-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5BD7CC1C2F265200C3EA7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A5BD7CE1C2F265200C3EA7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		6A5BD7E81C2F265200C3EA7A /* Soldier-VS-Orc-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soldier-VS-Orc-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5BD7EC1C2F265200C3EA7A /* Soldier_VS_Orc_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier_VS_Orc_GameUITests.swift; sourceTree = "<group>"; };
 		6A5BD7EE1C2F265200C3EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6B05EB1C309D5500B475C8 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		6A5BD7CB1C2F265200C3EA7A /* Soldier-VS-Orc-Game */ = {
 			isa = PBXGroup;
 			children = (
+				6A43C8761C31B6B900DCABEE /* swordnoise.wav */,
+				6A43C8781C31BFB500DCABEE /* orcnoise.wav */,
+				6A43C87A1C31C22700DCABEE /* backgroundmusic.mp3 */,
 				6A5BD7CC1C2F265200C3EA7A /* AppDelegate.swift */,
 				6A5BD7CE1C2F265200C3EA7A /* ViewController.swift */,
 				6A5BD7D01C2F265200C3EA7A /* Main.storyboard */,
 				6A5BD7D31C2F265200C3EA7A /* Assets.xcassets */,
 				6A5BD7D51C2F265200C3EA7A /* LaunchScreen.storyboard */,
 				6A5BD7D81C2F265200C3EA7A /* Info.plist */,
+				6A6B05EB1C309D5500B475C8 /* Character.swift */,
 			);
 			path = "Soldier-VS-Orc-Game";
 			sourceTree = "<group>";
@@ -234,6 +246,9 @@
 			files = (
 				6A5BD7D71C2F265200C3EA7A /* LaunchScreen.storyboard in Resources */,
 				6A5BD7D41C2F265200C3EA7A /* Assets.xcassets in Resources */,
+				6A43C8791C31BFB500DCABEE /* orcnoise.wav in Resources */,
+				6A43C87B1C31C22700DCABEE /* backgroundmusic.mp3 in Resources */,
+				6A43C8771C31B6B900DCABEE /* swordnoise.wav in Resources */,
 				6A5BD7D21C2F265200C3EA7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6B05EC1C309D5500B475C8 /* Character.swift in Sources */,
 				6A5BD7CF1C2F265200C3EA7A /* ViewController.swift in Sources */,
 				6A5BD7CD1C2F265200C3EA7A /* AppDelegate.swift in Sources */,
 			);
@@ -402,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Soldier-VS-Orc-Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-Game";
@@ -413,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Soldier-VS-Orc-Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GraysonFaircloth.Soldier-VS-Orc-Game";
@@ -487,6 +505,7 @@
 				6A5BD7F31C2F265200C3EA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A5BD7F41C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-GameTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +514,7 @@
 				6A5BD7F61C2F265200C3EA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A5BD7F71C2F265200C3EA7A /* Build configuration list for PBXNativeTarget "Soldier-VS-Orc-GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +523,7 @@
 				6A5BD7F91C2F265200C3EA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
